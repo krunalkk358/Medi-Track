@@ -56,7 +56,7 @@ public class Appointment implements Cloneable, Serializable {
         try {
             Appointment cloned = (Appointment) super.clone();
 
-            cloned.patient = patient.clone(); // deep copy
+            cloned.patient = patient.clone();
 
             return cloned;
 
